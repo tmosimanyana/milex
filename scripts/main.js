@@ -244,6 +244,7 @@ renderSummary();
 
   const targets = [
     ".intro .section-kicker", ".intro h2", ".intro-copy", ".farm-facts > div",
+    ".about-photo", ".about-copy",
     ".catalog-heading", ".catalog-tabs", ".catalog-footnote",
     ".order-intro", ".order-card",
     ".services-heading", ".service-card",
