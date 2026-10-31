@@ -186,6 +186,10 @@ button, input, textarea { font: inherit; }
 .contact-inner h2 em { color: var(--gold); }
 .contact-coordinate { font-size: .68rem; letter-spacing: .18em; opacity: .75; }
 .contact-coordinate i { font-style: normal; margin: 0 6px; }
+.contact-map { width: 100%; margin: 14px 0 0; display: grid; gap: 10px; }
+.contact-map iframe { width: 100%; height: 340px; border: 0; border-radius: var(--radius); background: var(--cream-2); box-shadow: 0 18px 40px rgba(0,0,0,.25); }
+.contact-map figcaption { font-size: .85rem; opacity: .85; }
+@media (max-width: 600px) { .contact-map iframe { height: 260px; } }
 
 /* Footer */
 .site-footer { background: var(--green-dark); color: var(--cream); padding: 50px max(24px, calc((100% - 1200px) / 2)) 24px; }
